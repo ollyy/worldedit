@@ -450,7 +450,7 @@ public class UtilityCommands {
     }
 
     @Command(
-        aliases = { "/remove", "entityremove", "rement" },
+        aliases = { "entityremove" },
         usage = "<type> <radius>",
         desc = "Remove all entities of a type",
         min = 2,
